@@ -1,4 +1,5 @@
 require("plugins.blink")
 require("plugins.comment")
+require("plugins.gitsigns")
 require("plugins.markdown-preview")
 require("plugins.neotree")
