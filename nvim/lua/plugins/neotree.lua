@@ -10,3 +10,4 @@ vim.g.neo_tree_remove_legacy_commands = 1
 require("neo-tree").setup({})
 
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<CR>", { silent = true })
+vim.keymap.set("n", "<leader>o", "<cmd>Neotree focus<CR>", { silent = true })
