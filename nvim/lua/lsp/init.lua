@@ -8,5 +8,6 @@ local function warn_missing(cmd, name)
 end
 
 warn_missing("lua-language-server", "lua_ls")
+warn_missing("bash-language-server", "bashls")
 
 require("lsp.servers")
