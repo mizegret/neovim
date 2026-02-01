@@ -32,6 +32,10 @@
       "rev": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee",
       "src": "https://github.com/iamcco/markdown-preview.nvim"
     },
+    "mason.nvim": {
+      "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
+      "src": "https://github.com/williamboman/mason.nvim"
+    },
     "neo-tree.nvim": {
       "rev": "466ba7ac7e4841a73d01afa48b6be8a4825a2372",
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim",

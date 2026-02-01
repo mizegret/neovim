@@ -1,4 +1,5 @@
 require("plugins.comment")
+require("plugins.mason")
 require("plugins.cmp-nvim-lsp")
 require("plugins.cmp-buffer")
 require("plugins.cmp-path")
