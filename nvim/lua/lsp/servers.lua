@@ -15,4 +15,24 @@ vim.lsp.config("bashls", {
   capabilities = capabilities,
 })
 
-vim.lsp.enable({ "lua_ls", "bashls" })
+vim.lsp.config("html", {
+  capabilities = capabilities,
+})
+
+vim.lsp.config("jsonls", {
+  capabilities = capabilities,
+})
+
+vim.lsp.config("cssls", {
+  capabilities = capabilities,
+})
+
+vim.lsp.config("ts_ls", {
+  capabilities = capabilities,
+})
+
+vim.lsp.config("eslint", {
+  capabilities = capabilities,
+})
+
+vim.lsp.enable({ "lua_ls", "bashls", "html", "jsonls", "cssls", "ts_ls", "eslint" })

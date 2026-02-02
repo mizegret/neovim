@@ -11,6 +11,11 @@ local registry = require("mason-registry")
 local ensure = {
   "lua-language-server",
   "bash-language-server",
+  "html-lsp",
+  "json-lsp",
+  "css-lsp",
+  "typescript-language-server",
+  "eslint-lsp",
 }
 
 local function ensure_installed()
