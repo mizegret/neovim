@@ -8,6 +8,7 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.autoread = true
 vim.opt.signcolumn = "yes"
+vim.opt.clipboard = "unnamedplus"
 
 vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold", "CursorHoldI" }, {
   command = "checktime",
