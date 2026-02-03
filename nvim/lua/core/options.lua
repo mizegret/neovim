@@ -7,6 +7,7 @@ vim.opt.relativenumber = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.autoread = true
+vim.opt.undofile = true
 vim.opt.signcolumn = "yes"
 vim.opt.clipboard = "unnamedplus"
 
