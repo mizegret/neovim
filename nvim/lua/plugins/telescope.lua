@@ -1,0 +1,16 @@
+vim.pack.add({
+  { src = "https://github.com/nvim-telescope/telescope.nvim", version = "0.1.x" },
+  { src = "https://github.com/nvim-telescope/telescope-live-grep-args.nvim" },
+  { src = "https://github.com/nvim-lua/plenary.nvim" },
+})
+
+local telescope = require("telescope")
+
+telescope.setup({})
+telescope.load_extension("live_grep_args")
+
+local builtin = require("telescope.builtin")
+local live_grep_args = telescope.extensions.live_grep_args
+
+vim.keymap.set("n", "<leader>ff", builtin.find_files, { silent = true, desc = "Find files" })
+vim.keymap.set("n", "<leader>fs", live_grep_args.live_grep_args, { silent = true, desc = "Live grep (args)" })
