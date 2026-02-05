@@ -14,3 +14,4 @@ local live_grep_args = telescope.extensions.live_grep_args
 
 vim.keymap.set("n", "<leader>ff", builtin.find_files, { silent = true, desc = "Find files" })
 vim.keymap.set("n", "<leader>fs", live_grep_args.live_grep_args, { silent = true, desc = "Live grep (args)" })
+vim.keymap.set("n", "<leader>fd", builtin.diagnostics, { silent = true, desc = "Find diagnostics" })
