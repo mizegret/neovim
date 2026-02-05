@@ -1,5 +1,4 @@
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
 vim.lsp.config("lua_ls", {
   capabilities = capabilities,
   settings = {
@@ -35,4 +34,8 @@ vim.lsp.config("eslint", {
   capabilities = capabilities,
 })
 
-vim.lsp.enable({ "lua_ls", "bashls", "html", "jsonls", "cssls", "ts_ls", "eslint" })
+vim.lsp.config("jdtls", {
+  capabilities = capabilities,
+})
+
+vim.lsp.enable({ "lua_ls", "bashls", "html", "jsonls", "cssls", "ts_ls", "eslint", "jdtls" })

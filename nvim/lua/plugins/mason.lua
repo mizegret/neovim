@@ -17,6 +17,7 @@ local ensure = {
   "typescript-language-server",
   "eslint-lsp",
   "stylua",
+  "jdtls",
 }
 
 local function ensure_installed()
